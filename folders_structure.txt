@@ -1,0 +1,30 @@
+
+Genome analysis:
+	01_RawData
+		Genomics_data
+			Illumina
+			Metadata
+			Nanopore
+			PacBio
+		Transcriptomics_data
+			RNA-Seq_BH
+			RNA-Seq_Serum
+			Tn-Seq_BHI
+			Tn-Seq_HSerum
+			Tn-Seq_Serum
+	02_Preprocessing
+		1_FastQC
+		2_Trimmomatic
+		3_FastQC_Trimmed
+	03_Assembly
+    01_PacBio
+		02_illumina
+		03_Nanopore
+		04_combined?
+		05_Other?
+		06_Transcriptomic
+	04_Assemlby_evaluation
+		1_Annotation
+		2_Quast
+	Scripts
+		(.sh files)
