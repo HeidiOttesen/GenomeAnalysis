@@ -1,5 +1,5 @@
 # Genome Analysis
-## PROJECT PLAN
+
 
 ### ARTICLE I 
 (TA Linnéa Smeds)
