@@ -27,13 +27,13 @@ Genome analysis:
 		2_Trimmomatic
 		3_FastQC_Trimmed
 	03_Assembly
-    01_PacBio
+    		01_PacBio
 		02_illumina
 		03_Nanopore
 		04_combined?
 		05_Other?
 		06_Transcriptomic
-	04_Assemlby_evaluation
+	04_Assembly_evaluation
 		1_Annotation
 		2_Quast
 	Scripts
