@@ -1,7 +1,7 @@
 
 Genome analysis:
 	01_RawData
-		Genomics_data
+		GenomicsData
 			Illumina
 				[118M]  E745-1.L500_SZAXPI015146-56_1_clean.fq.gz
 				[131M]  E745-1.L500_SZAXPI015146-56_2_clean.fq.gz
@@ -16,16 +16,20 @@ Genome analysis:
 				[109M]  m131024_200535_42174_c100563672550000001823084212221342_s1_p0.2.subreads.fastq.gz
 				[ 96M]  m131024_200535_42174_c100563672550000001823084212221342_s1_p0.3.subreads.fastq.gz
 				
-		Transcriptomics_data
+		TranscriptomicsData
 			RNA-Seq_BH
 			RNA-Seq_Serum
 			Tn-Seq_BHI
 			Tn-Seq_HSerum
 			Tn-Seq_Serum
 	02_Preprocessing
-		1_FastQC
+		1_FastQC_raw
+			illumina
+			Nanopore
+			PacBio
 		2_Trimmomatic
 		3_FastQC_Trimmed
+			illumina
 	03_Assembly
     		01_PacBio
 		02_illumina
