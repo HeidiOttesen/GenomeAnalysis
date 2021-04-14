@@ -3,12 +3,17 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 15:00 --qos=short
-#SBATCH -J Quast_PacBio_Canu
+#SBATCH -J Quast_All
 #SBATCH --mail-user heidinaomi.ottesen.4894@student.uu.se
 #SBATCH --mail-type=ALL
 
 module load bioinfo-tools
-module load quast/5.0.2 #latest version April 2021: quast/5.0.2
+module load quast/5.0.2 #latest version April 2021: quast/5.0.2 - not working with sbatch. use 4.5.4 instead
 
-out="
-quast.py 
+out="/domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_5.0.2"
+mkdir $out
+#input=$1
+indir="/domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links"
+
+#quast.py -t 2 --scaffolds -o $out $input
+quast.py -t 2 --scaffolds -o $out $indir/*.fasta

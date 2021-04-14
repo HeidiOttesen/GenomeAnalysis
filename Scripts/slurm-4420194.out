@@ -1,0 +1,18 @@
+
+[Errno 17] File exists: '/domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/illumina.contigs.fasta'
+Traceback (most recent call last):
+  File "/sw/apps/bioinfo/quast/4.5.4/snowy/bin/quast.py", line 281, in <module>
+    return_code = main(sys.argv[1:])
+  File "/sw/apps/bioinfo/quast/4.5.4/snowy/bin/quast.py", line 55, in main
+    quast_py_args, contigs_fpaths = parse_options(logger, quast_path + args)
+  File "/sw/apps/bioinfo/quast/4.5.4/snowy/lib/python2.7/site-packages/quast_libs/options_parser.py", line 579, in parse_options
+    qconfig.save_json if not is_metaquast else None)
+  File "/sw/apps/bioinfo/quast/4.5.4/snowy/lib/python2.7/site-packages/quast_libs/qutils.py", line 47, in set_up_output_dir
+    os.makedirs(output_dirpath)
+  File "/sw/comp/python/2.7.6_snowy_new/lib/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 17] File exists: '/domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/illumina.contigs.fasta'
+ERROR! exception caught!
+
+In case you have troubles running QUAST, you can write to quast.support@bioinf.spbau.ru
+Please provide us with quast.log file from the output directory.

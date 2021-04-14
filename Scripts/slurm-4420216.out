@@ -1,0 +1,84 @@
+mkdir: cannot create directory ‘/domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4’: File exists
+/sw/bioinfo/quast/4.5.4/rackham/bin/quast.py -t 2 --scaffolds -o /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4 /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/illumina.contigs.fasta /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/illumina_Nanopore.contigs.fasta /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/PacBio.contigs.fasta
+
+Version: 4.5.4
+
+System information:
+  OS: Linux-3.10.0-1160.21.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 2.7.6
+  CPUs number: 16
+
+Started: 2021-04-14 13:53:58
+
+Logging to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/quast.log
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used
+
+CWD: /domus/h1/heidio/GenomeAnalysis/Scripts
+Main parameters: 
+  Threads: 2, scaffolds: true, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  1  /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/illumina.contigs.fasta ==> illumina.contigs
+  1    breaking scaffolds into contigs:
+  1      WARNING: nothing was broken, skipping 'illumina.contigs broken' from further analysis
+  2  /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/illumina_Nanopore.contigs.fasta ==> illumina_Nanopore.contigs
+  2    breaking scaffolds into contigs:
+  2      WARNING: nothing was broken, skipping 'illumina_Nanopore.contigs broken' from further analysis
+  3  /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/PacBio.contigs.fasta ==> PacBio.contigs
+  3    breaking scaffolds into contigs:
+  3      WARNING: nothing was broken, skipping 'PacBio.contigs broken' from further analysis
+
+2021-04-14 13:54:02
+Running Basic statistics processor...
+  Contig files: 
+    1  illumina.contigs
+    2  illumina_Nanopore.contigs
+    3  PacBio.contigs
+  Calculating N50 and L50...
+    1  illumina.contigs, N50 = 49767, L50 = 19, Total length = 2926792, GC % = 37.65, # N's per 100 kbp =  0.00
+    2  illumina_Nanopore.contigs, N50 = 162629, L50 = 6, Total length = 3080395, GC % = 37.64, # N's per 100 kbp =  0.00
+    3  PacBio.contigs, N50 = 2775639, L50 = 1, Total length = 3162825, GC % = 37.77, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/GC_content_plot.pdf
+  Drawing illumina.contigs GC content plot...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/illumina.contigs_GC_content_plot.pdf
+  Drawing illumina_Nanopore.contigs GC content plot...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/illumina_Nanopore.contigs_GC_content_plot.pdf
+  Drawing PacBio.contigs GC content plot...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/PacBio.contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/coverage_histogram.pdf
+  Drawing illumina.contigs coverage histogram (bin size: 1x)...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/illumina-contigs_coverage_histogram.pdf
+  Drawing illumina_Nanopore.contigs coverage histogram (bin size: 7x)...
+    saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/basic_stats/illumina_Nanopore-contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2021-04-14 13:54:07
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-04-14 13:54:08
+RESULTS:
+  Text versions of total report are saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/report.html
+  PDF version (tables and plots) is saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/report.pdf
+  Icarus (contig browser) is saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/icarus.html
+  Log saved to /domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/2_Quast/All_4.5.4/quast.log
+
+Finished: 2021-04-14 13:54:08
+Elapsed time: 0:00:10.562098
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
