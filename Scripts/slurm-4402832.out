@@ -1,0 +1,3 @@
+ln: failed to create symbolic link ‘/domus/h1/heidio/GenomeAnalysis/01_RawData/GenomicsData/Illumina’: File exists
+ln: failed to create symbolic link ‘/domus/h1/heidio/GenomeAnalysis/01_RawData/GenomicsData/Nanopore’: File exists
+ln: failed to create symbolic link ‘/domus/h1/heidio/GenomeAnalysis/01_RawData/GenomicsData/PacBio’: File exists
