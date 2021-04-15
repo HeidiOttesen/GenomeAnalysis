@@ -52,23 +52,22 @@ The aim of this project is to assemble the genome of Enterococcus faecium based 
 ### Project Plan:
 <pre>
 1 Genome Assembly 
-  1.1 Quality Check on Raw Reads using FastQC
-  1.2 Trimming With Trimmomatic
-  1.3 Quality Check After Trimming Using FastQC
-  1.4 Assembly of Long PacBio Reads Using Canu
-  (1.5 Genome Assembly of Short illumina and Nanopore Reads Using Spades)
-  1.6 Base Error Correction of Nanopore Assembly by Mapping illumina Short Reads using BWA
-  1.7 Evaluation of the different assemblies using Quast (and more)
-	1.8 Annotation using Prokka - structural and functional
+  	1.1 Quality Check on Raw Reads using FastQC
+  	1.2 Trimming With Trimmomatic
+  	1.3 Quality Check After Trimming Using FastQC
+  	1.4 Assembly of Long PacBio Reads Using Canu
+  	1.5 Genome Assembly of Short illumina and Nanopore Reads Using Spades
+ 	1.7 Evaluation of the Different Assemblies Using Quast
+	1.8 Annotation of PacBio Assembly Using Prokka - structural and functional
 	(1.9 Plasmid identification)
 (Checkpoint 1 - trimming/qc/assembly)
 2 SyntenyPhylogeny
-	2.1 Phylogenetic tree by ML
-	(2.2 ParSNP)
-	(2.3 Blast)
+	2.1 Blastn
+	(2.2 Phylogenetic tree by ML)
+	(2.3 ParSNP)	
 3 Transcriptomics
 	3.1 Mapping RNA-seq on assemblies using BWA
-	3.2 Differential expression using Htseq
+	3.2 Differential expression using Htseq and Deseq2
 	(3.3 Tn-seq)
 (4 Post_analyses)
 	(4.1 Identify Resistance genes using ResFinder)
