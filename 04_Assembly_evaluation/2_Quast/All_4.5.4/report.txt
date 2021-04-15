@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    illumina.contigs  illumina_Nanopore.contigs  PacBio.contigs
+# contigs (>= 0 bp)         488               175                        10            
+# contigs (>= 1000 bp)      163               46                         10            
+# contigs (>= 5000 bp)      92                36                         10            
+# contigs (>= 10000 bp)     67                27                         8             
+# contigs (>= 25000 bp)     34                20                         5             
+# contigs (>= 50000 bp)     17                16                         2             
+Total length (>= 0 bp)      2975893           3101302                    3162825       
+Total length (>= 1000 bp)   2905560           3075336                    3162825       
+Total length (>= 5000 bp)   2728114           3047294                    3162825       
+Total length (>= 10000 bp)  2544168           2984487                    3149049       
+Total length (>= 25000 bp)  2008843           2866708                    3100952       
+Total length (>= 50000 bp)  1402640           2724412                    3006416       
+# contigs                   195               53                         10            
+Largest contig              114283            458911                     2775639       
+Total length                2926792           3080395                    3162825       
+GC (%)                      37.65             37.64                      37.77         
+N50                         49767             162629                     2775639       
+N75                         19664             102479                     2775639       
+L50                         19                6                          1             
+L75                         43                11                         1             
+# N's per 100 kbp           0.00              0.00                       0.00          

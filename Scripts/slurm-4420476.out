@@ -1,0 +1,4 @@
+SPAdes genome assembler v3.14.1
+
+Usage: spades.py [options] -o <output_dir>
+spades.py: error: argument --pacbio: expected 1 argument(s)
