@@ -1,0 +1,133 @@
+Usage: java -jar $PILON_HOME/pilon.jar other-options...
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+Genome: /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/PacBio.contigs.fasta
+Fixing snps, indels, gaps, local
+Input genome size: 3162825
+Scanning BAMs
+/domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: 3334327 reads, 0 filtered, 3224074 mapped, 3173147 proper, 38490 stray, FR 100% 466+/-15, max 510
+Processing tig00000001:1-2775639
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 66
+Total Reads: 2644913, Coverage: 66, minDepth: 7
+Confirmed 2775343 of 2775639 bases (99.99%)
+Corrected 1 snps; 0 ambiguous bases; corrected 84 small insertions totaling 87 bases, 3 small deletions totaling 3 bases
+# Attempting to fix local continuity breaks
+fix break: tig00000001:2201981-2202298 2202284 -43 +45 BreakFix
+tig00000001:1-2775639 log:
+Finished processing tig00000001:1-2775639
+Processing tig00000005:1-7439
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 108
+Total Reads: 11883, Coverage: 108, minDepth: 11
+Confirmed 6876 of 7439 bases (92.43%)
+Corrected 1 snps; 0 ambiguous bases; corrected 18 small insertions totaling 22 bases, 7 small deletions totaling 7 bases
+# Attempting to fix local continuity breaks
+# fix break: tig00000005:166-402 0 -0 +0 NoSolution
+# fix break: tig00000005:4772-4806 0 -0 +0 NoSolution
+tig00000005:1-7439 log:
+Finished processing tig00000005:1-7439
+Processing tig00000007:1-40017
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 203
+Total Reads: 130236, Coverage: 203, minDepth: 20
+Confirmed 39523 of 40017 bases (98.77%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+# Attempting to fix local continuity breaks
+# fix break: tig00000007:1613-1633 0 -0 +0 NoSolution
+# fix break: tig00000007:25873-27180 0 -0 +0 NoSolution
+# fix break: tig00000007:28303-29206 0 -0 +0 NoSolution
+# fix break: tig00000007:36021-36039 0 -0 +0 NoSolution
+# fix break: tig00000007:36799-36817 0 -0 +0 NoSolution
+tig00000007:1-40017 log:
+Finished processing tig00000007:1-40017
+Processing tig00000008:1-16055
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 173
+Total Reads: 43950, Coverage: 173, minDepth: 17
+Confirmed 15956 of 16055 bases (99.38%)
+Corrected 0 snps; 0 ambiguous bases; corrected 1 small insertions totaling 1 bases, 0 small deletions totaling 0 bases
+# Attempting to fix local continuity breaks
+# fix break: tig00000008:3095-3477 0 -0 +0 NoSolution TandemRepeat 22
+# fix break: tig00000008:12420-12786 0 -0 +0 NoSolution TandemRepeat 22
+# fix break: tig00000008:15142-15195 0 -0 +0 NoSolution
+tig00000008:1-16055 log:
+Finished processing tig00000008:1-16055
+Processing tig00000009:1-16601
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 65
+Total Reads: 15686, Coverage: 65, minDepth: 7
+Confirmed 14820 of 16601 bases (89.27%)
+Corrected 1 snps; 0 ambiguous bases; corrected 12 small insertions totaling 13 bases, 1 small deletions totaling 1 bases
+# Attempting to fix local continuity breaks
+# fix break: tig00000009:1258-1287 0 -0 +0 NoSolution
+# fix break: tig00000009:1830-1860 0 -0 +0 NoSolution
+# fix break: tig00000009:2178-2231 0 -0 +0 NoSolution
+# fix break: tig00000009:2538-2586 0 -0 +0 NoSolution
+# fix break: tig00000009:2899-2946 0 -0 +0 NoSolution
+# fix break: tig00000009:4712-4731 0 -0 +0 NoSolution
+fix break: tig00000009:11893-11949 11911 -22 +24 BreakFix
+fix break: tig00000009:12286-12514 11911 -22 +24 BreakFix
+# fix break: tig00000009:13379-13436 0 -0 +0 NoSolution
+# fix break: tig00000009:13751-13805 0 -0 +0 NoSolution
+# fix break: tig00000009:14645-15045 0 -0 +0 NoSolution
+# fix break: tig00000009:15258-15789 0 -0 +0 NoSolution
+# fix break: tig00000009:16129-16249 0 -0 +0 NoSolution
+tig00000009:1-16601 log:
+Finished processing tig00000009:1-16601
+Processing tig00000010:1-28634
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 139
+Total Reads: 58633, Coverage: 139, minDepth: 14
+Confirmed 28553 of 28634 bases (99.72%)
+Corrected 0 snps; 0 ambiguous bases; corrected 9 small insertions totaling 9 bases, 3 small deletions totaling 3 bases
+# Attempting to fix local continuity breaks
+# fix break: tig00000010:28255-28323 0 -0 +0 NoSolution
+tig00000010:1-28634 log:
+Finished processing tig00000010:1-28634
+Processing tig00000011:1-25885
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 140
+Total Reads: 54109, Coverage: 140, minDepth: 14
+Confirmed 25867 of 25885 bases (99.93%)
+Corrected 0 snps; 0 ambiguous bases; corrected 14 small insertions totaling 15 bases, 1 small deletions totaling 1 bases
+tig00000011:1-25885 log:
+Finished processing tig00000011:1-25885
+Processing tig00000013:1-15441
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 124
+Total Reads: 28384, Coverage: 124, minDepth: 12
+Confirmed 15356 of 15441 bases (99.45%)
+Corrected 21 snps; 0 ambiguous bases; corrected 5 small insertions totaling 5 bases, 2 small deletions totaling 2 bases
+tig00000013:1-15441 log:
+Finished processing tig00000013:1-15441
+Processing tig00000047:1-6337
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 12
+Total Reads: 1080, Coverage: 12, minDepth: 5
+Confirmed 3418 of 6337 bases (53.94%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 1 small deletions totaling 1 bases
+# Attempting to fix local continuity breaks
+# fix break: tig00000047:963-3960 0 -0 +0 NoSolution
+tig00000047:1-6337 log:
+Finished processing tig00000047:1-6337
+Processing tig00000048:1-230777
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/BWA_illumina_on_PacBio_sorted.bam: coverage 73
+Total Reads: 246863, Coverage: 73, minDepth: 7
+Confirmed 229277 of 230777 bases (99.35%)
+Corrected 0 snps; 0 ambiguous bases; corrected 22 small insertions totaling 22 bases, 1 small deletions totaling 1 bases
+# Attempting to fix local continuity breaks
+# fix break: tig00000048:1246-1278 0 -0 +0 NoSolution
+# fix break: tig00000048:2612-2651 0 -0 +0 NoSolution
+# fix break: tig00000048:3233-3282 0 -0 +0 NoSolution
+# fix break: tig00000048:20623-20665 0 -0 +0 NoSolution
+# fix break: tig00000048:55784-55951 0 -0 +0 NoSolution
+# fix break: tig00000048:56171-56222 0 -0 +0 NoSolution
+# fix break: tig00000048:224905-224920 0 -0 +0 NoSolution
+# fix break: tig00000048:225276-225324 0 -0 +0 NoSolution
+# fix break: tig00000048:226682-226720 0 -0 +0 NoSolution
+# fix break: tig00000048:228211-228236 0 -0 +0 NoSolution
+tig00000048:1-230777 log:
+Finished processing tig00000048:1-230777
+Writing updated tig00000001_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000005_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000007_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000008_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000009_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000010_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000011_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000013_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000047_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Writing updated tig00000048_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumin_PacBio.fasta
+Mean frags coverage: 70
+Mean total coverage: 70
