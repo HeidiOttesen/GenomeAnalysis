@@ -1,0 +1,90 @@
+Usage: java -jar $PILON_HOME/pilon.jar other-options...
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+Genome: /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/PacBio.contigs.fasta
+Fixing snps, indels, gaps, local
+Input genome size: 3162825
+Scanning BAMs
+/domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: 187 reads, 0 filtered, 182 mapped, 0 proper, 0 stray, Unpaired 100% 269+/-356, max 500
+Processing tig00000001:1-2775639
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 99, Coverage: 1, minDepth: 5
+Confirmed 0 of 2775639 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000001:1-2775639 log:
+Finished processing tig00000001:1-2775639
+Processing tig00000005:1-7439
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 1, Coverage: 1, minDepth: 5
+Confirmed 0 of 7439 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000005:1-7439 log:
+Finished processing tig00000005:1-7439
+Processing tig00000007:1-40017
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 10, Coverage: 1, minDepth: 5
+Confirmed 0 of 40017 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000007:1-40017 log:
+Finished processing tig00000007:1-40017
+Processing tig00000008:1-16055
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 2, Coverage: 1, minDepth: 5
+Confirmed 0 of 16055 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+Large collapsed region: tig00000008:2698-12749 size 10052
+tig00000008:1-16055 log:
+Finished processing tig00000008:1-16055
+Processing tig00000009:1-16601
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 8, Coverage: 1, minDepth: 5
+Confirmed 0 of 16601 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000009:1-16601 log:
+Finished processing tig00000009:1-16601
+Processing tig00000010:1-28634
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 5, Coverage: 1, minDepth: 5
+Confirmed 0 of 28634 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000010:1-28634 log:
+Finished processing tig00000010:1-28634
+Processing tig00000011:1-25885
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 2, Coverage: 1, minDepth: 5
+Confirmed 0 of 25885 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000011:1-25885 log:
+Finished processing tig00000011:1-25885
+Processing tig00000013:1-15441
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 8, Coverage: 1, minDepth: 5
+Confirmed 0 of 15441 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000013:1-15441 log:
+Finished processing tig00000013:1-15441
+Processing tig00000047:1-6337
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 0
+Total Reads: 0, Coverage: 0, minDepth: 5
+Confirmed 0 of 6337 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000047:1-6337 log:
+Finished processing tig00000047:1-6337
+Processing tig00000048:1-230777
+frags /domus/h1/heidio/GenomeAnalysis/03_Assembly/4_BWA/2_illumina_Nanopore_contigs_on_PacBio/BWA_illumina+Nanopore_contigs_on_PacBio_sorted.bam: coverage 1
+Total Reads: 47, Coverage: 1, minDepth: 5
+Confirmed 0 of 230777 bases (0.00%)
+Corrected 0 snps; 0 ambiguous bases; corrected 0 small insertions totaling 0 bases, 0 small deletions totaling 0 bases
+tig00000048:1-230777 log:
+Finished processing tig00000048:1-230777
+Writing updated tig00000001_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000005_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000007_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000008_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000009_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000010_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000011_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000013_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000047_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Writing updated tig00000048_pilon to /domus/h1/heidio/GenomeAnalysis/03_Assembly/5_Pilon_combined/Pilon_illumina_Nanopore_PacBio.fasta
+Mean frags coverage: 1
+Mean total coverage: 1

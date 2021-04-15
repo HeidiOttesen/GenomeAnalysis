@@ -13,8 +13,8 @@ module load prokka/1.45-5b58020
 ref="/domus/h1/heidio/GenomeAnalysis/03_Assembly/0_ReferenceGenome/Efaecium_ref.fna"
 read1=$1
 read2=$2
-id="PacBio"
-outdir="/domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/1_PROKKA/1_PacBio"
+id="PacBio_illumina"
+outdir="/domus/h1/heidio/GenomeAnalysis/04_Assembly_evaluation/1_PROKKA/2_PacBio_illumina"
 
 
 prokka --outdir $outdir --prefix $id $read1
