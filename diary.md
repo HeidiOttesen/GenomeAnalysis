@@ -1,6 +1,8 @@
 April 15th:
 I have downloaded a reference genome for E. faecium from [ncbi](https://ftp-ncbi-nlm-nih-gov.ezproxy.its.uu.se/genomes/refseq/bacteria/Enterococcus_faecium/representative/GCF_010120755.1_ASM1012075v1/)
-I ran PROKKA on PacBio for annotation.
+I ran PROKKA on PacBio assembly for annotation, visualized with artemis locally on my computer.
+I aligned my illumina reads onto the pacbio assembly with BWA (index and mem)
+I ran Pilon on my aligned illumina reads and PacBio assembly as reference to combine them.
 
 
 April 14th:
@@ -9,7 +11,7 @@ I ran Spades on illumina reads alone but also on illumina together with Nanopore
 I ran Quast to evaluate (version 5.0.2 was not available on rackham so I used version 4.5.4 instead)
 I couldn't figure out how to run MUMmer
 
-I did not correct base errors of canu PacBio assembly using BWA - maybe I will do this later!
+I did not correct base errors of canu PacBio assembly using BWA and illumina reads - maybe I will do this later!
 
 April 9th:
 I ran FastQC on illumina (jobID 4402490) - read 1 was looking good with high quality, but read 2 was not as good so I decided to trim using trimmomatic (jobID 4402701) and ran FastQc on the trimmed reads (jobID 4402761).
