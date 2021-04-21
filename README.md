@@ -54,6 +54,7 @@ The aim of this project is to assemble the genome of Enterococcus faecium based 
   	1.3 Quality Check After Trimming Using FastQC
   	1.4 Assembly of Long PacBio Reads Using Canu
   	1.5 Genome Assembly of Short illumina and Nanopore Reads Using Spades
+  	1.6 Aligning and Combining illumina Raw Reads Together With PacBio Assembly Using BWA and Pilon 
  	1.7 Evaluation of the Different Assemblies Using Quast
 	1.8 Annotation of PacBio Assembly Using Prokka - structural and functional
 	(1.9 Plasmid identification)

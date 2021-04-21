@@ -3,6 +3,7 @@ I have downloaded a reference genome for E. faecium from [ncbi](https://ftp-ncbi
 I ran PROKKA on PacBio assembly for annotation, visualized with artemis locally on my computer.
 I aligned my illumina reads onto the pacbio assembly with BWA (index and mem)
 I ran Pilon on my aligned illumina reads and PacBio assembly as reference to combine them.
+I ran Quast on all 7 assemblies (Canu: PacBio, Spades(contigs+scaffolds): illumina, Spades(contigs+scaffolds: illumina+Nanopore, Pilon: illumina+PacBio and illumina+Nanopore+PacBio)
 
 
 April 14th:
