@@ -1,9 +1,16 @@
+Best assembly:
+/domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/Pilon_illumina_Nanopore_PacBio.fasta
+
 To do:
 find similar species and make a phylogenetic tree - ML? - too much with full genomes?
 
 
 
 April 23rd: 
+Continued with BWA on RNA-seq (2 paired raw read files at a time - am not doing unpaired reads) and single Tn-Seq.
+Did PROKKA on the "best" assembly.
+Tried HTSeq - unsure about the "-r name" flag.. Removed the fasta sequences from the PROKKA gff file (kept 3226 lines).
+  - How to call? "python -m HTSeq.scripts.count" or "htseq-count". pipe to .txt file? NOT WORKING!
 
 
 April 21st:<br>
