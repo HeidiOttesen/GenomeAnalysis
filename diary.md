@@ -5,13 +5,19 @@ To do:
 find similar species and make a phylogenetic tree - ML? - too much with full genomes?
 
 
+April 25th: <br>
+Approach to solve HTSeq missing mates - sort bam by name
+  - To do this I used script BAM_to_SAM_name_sort.sh which converts my bam file back to sam and the sorts based on name instead of on position..
+  - Then I tried HTSeq with many different flags!
 
-April 23rd: 
+
+April 23rd: <br>
 Continued with BWA on RNA-seq (2 paired raw read files at a time - am not doing unpaired reads) and single Tn-Seq.
 Did PROKKA on the "best" assembly.
 Tried HTSeq - unsure about the "-r name" flag.. Removed the fasta sequences from the PROKKA gff file (kept 3226 lines).
   - How to call? "python -m HTSeq.scripts.count" or "htseq-count". pipe to .txt file? NOT WORKING!
-
+  - "Warning: 27570122 reads with missing mate encountered. 27823721 alignment pairs processed."
+  - 
 
 April 21st:<br>
 Finally success with BWA-mapping two of the RNA raw read files. <br>
