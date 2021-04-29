@@ -4,12 +4,22 @@ Best assembly:
 To do:
 find similar species and make a phylogenetic tree - ML? - too much with full genomes?
 
+April 28/29:
+Still struggling with HTses and testing..
+  - ended up using the original .bam files (not sorted by name) and removing most flags only using -t -f -i flags.. 
+Working on synteny
+  - I have downloaded genomes of similar species and sort of an outsider
+    - Enterococcus faecium, Enterococcus faecalis, Enterococcus casseliflavus, Listeria monocytogenes. .fna(fasta sequence) and .gff files
+    - I have aligned Efaecalis and Efaecium with blastn and I have aligned all of them combined using mafft. 
+
 
 April 25th: <br>
 Approach to solve HTSeq missing mates - sort bam by name
   - To do this I used script BAM_to_SAM_name_sort.sh which converts my bam file back to sam and the sorts based on name instead of on position..
-  - Then I tried HTSeq with many different flags!
-
+  - Then I tried HTSeq with many different flags! 
+    - --secondary-alignments ignore --supplementary-alignments ignore -f bam
+    - -r name --secondary-alignments ignore --supplementary-alignments ignore -f bam
+    - 
 
 April 23rd: <br>
 Continued with BWA on RNA-seq (2 paired raw read files at a time - am not doing unpaired reads) and single Tn-Seq.
