@@ -6,15 +6,11 @@ May 4th: <br>
 Checkpoint - all good. will probably look into extra analyses from student manual and start answering questions. <br>
 DESeq - Have done the analysis in RStudio. Am getting a lot of "0" values on base lines.. <br>
 
-May ?
-Managed to do HTSeq
-Did blastn alignment with E. faecalis..
-Tried to do mafft aligning of my dowloanded genomes - takes more than 20 hours so I will not try that again.. 
-
 
 April 28/29: <br>
 Still struggling with HTses and testing.. <br>
   - ended up using the original .bam files (not sorted by name) and removing most flags only using -t -f -i flags.. <br>
+  - Finally worked! 7pm April 29th
 Working on synteny <br>
   - I have downloaded genomes of similar species and sort of an outsider<br>
     - Enterococcus faecium, Enterococcus faecalis, Enterococcus casseliflavus, Listeria monocytogenes. .fna(fasta sequence) and .gff files<br>
