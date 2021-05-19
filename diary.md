@@ -1,24 +1,29 @@
 Best assembly:
 /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/Pilon_illumina_Nanopore_PacBio.fasta
 
-To do:
-find similar species and make a phylogenetic tree - ML? - too much with full genomes?
 
-April 28/29:
-Still struggling with HTses and testing..
-  - ended up using the original .bam files (not sorted by name) and removing most flags only using -t -f -i flags.. 
-Working on synteny
-  - I have downloaded genomes of similar species and sort of an outsider
-    - Enterococcus faecium, Enterococcus faecalis, Enterococcus casseliflavus, Listeria monocytogenes. .fna(fasta sequence) and .gff files
-    - I have aligned Efaecalis and Efaecium with blastn and I have aligned all of them combined using mafft. 
+May 4th: <br>
+Checkpoint - all good. will probably look into extra analyses from student manual and start answering questions. <br>
+DESeq - Have done the analysis in RStudio. Am getting a lot of "0" values on base lines.. <br>
+
+
+April 28/29: <br>
+Still struggling with HTses and testing.. <br>
+  - ended up using the original .bam files (not sorted by name) and removing most flags only using -t -f -i flags.. <br>
+  - Finally worked! 7pm April 29th
+Working on synteny <br>
+  - I have downloaded genomes of similar species and sort of an outsider<br>
+    - Enterococcus faecium, Enterococcus faecalis, Enterococcus casseliflavus, Listeria monocytogenes. .fna(fasta sequence) and .gff files<br>
+    - I have aligned Efaecalis and Efaecium with blastn <br>
+    - I tried mafft aligning all the genomes but that is taking more than 20 hours so I will not try again.
 
 
 April 25th: <br>
-Approach to solve HTSeq missing mates - sort bam by name
-  - To do this I used script BAM_to_SAM_name_sort.sh which converts my bam file back to sam and the sorts based on name instead of on position..
-  - Then I tried HTSeq with many different flags! 
-    - --secondary-alignments ignore --supplementary-alignments ignore -f bam
-    - -r name --secondary-alignments ignore --supplementary-alignments ignore -f bam
+Approach to solve HTSeq missing mates - sort bam by name<br>
+  - To do this I used script BAM_to_SAM_name_sort.sh which converts my bam file back to sam and the sorts based on name instead of on position..<br>
+  - Then I tried HTSeq with many different flags! <br>
+    - --secondary-alignments ignore --supplementary-alignments ignore -f bam<br>
+    - -r name --secondary-alignments ignore --supplementary-alignments ignore -f bam<br>
     - 
 
 April 23rd: <br>
