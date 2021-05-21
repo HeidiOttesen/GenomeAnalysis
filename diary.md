@@ -1,6 +1,10 @@
 Best assembly:
 /domus/h1/heidio/GenomeAnalysis/03_Assembly/contig_links/Pilon_illumina_Nanopore_PacBio.fasta
 
+May 18th-20th 
+Working on synteny. Have visualized synteny between E. faecium and the three others (Enterococcus faecalis, Enterococcus casseliflavus, Listeria monocytogenes) using blastn and Artemis ACT.
+Have also done makedb of E. faecium proteins and done blastp of the others against but don't know how to visualize or if this is correct..?
+
 
 May 4th: <br>
 Checkpoint - all good. will probably look into extra analyses from student manual and start answering questions. <br>
