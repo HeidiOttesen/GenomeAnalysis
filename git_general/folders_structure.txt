@@ -28,17 +28,43 @@ Genome analysis:
 			Nanopore
 			PacBio
 		2_Trimmomatic
+			illumina
 		3_FastQC_Trimmed
 			illumina
+		4_FastQC_RNA_raw
+			RNA-Seq_BH
+			RNA-Seq_Serum
+			Tn-Seq_BHI
+			Tn-Seq_HSerum
+			Tn-Seq_Serum		
 	03_Assembly
-    		01_PacBio
-		02_illumina
-		03_Nanopore
-		04_combined?
-		05_Other?
-		06_Transcriptomic
+		0_ReferenceGenome
+    		1_PacBio
+		2_illumina
+		3_illumina_Nanopore
+		4_BWA
+			1_illumina_raw_on_PacBio
+			2_illumina_Nanopore_contigs_on_PacBio
+		5_Pilon_combinded
 	04_Assembly_evaluation
-		1_Annotation
+		1_PROKKA
+			1_PacBio
+			2_PacBio_illumina
+			3_PB_illumina_NanoPore
 		2_Quast
+		3_MUMmerplot
+		4_BCF
+	05_synteny
+		1_align
+			1_blast
+			2_blast_prot
+		genomes_other
+			E_faecalis
+			E_casseliflavus
+			L_monocytogenes
+	06_Transcriptomics
+		1_BWA
+		2_HTSeq
+	git_general
 	Scripts
 		(.sh files)
