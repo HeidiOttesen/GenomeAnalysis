@@ -74,12 +74,12 @@ The aim of this project is to assemble the genome of Enterococcus faecium based 
 </pre>
 
 ### Timeline
-![Preliminary timeline:](Gantt_Timeline.jpg "Gantt Timeline")
+![Preliminary timeline:](git_general/Gantt_Timeline.jpg "Gantt Timeline")
 
 
 ### Sample: E. faecium strain E745
-Metadata in file: [Metadata](https://github.com/HeidiOttesen/GenomeAnalysis/blob/a23ef8c7655f6f972434f040145977ba72521130/Metadata_PRJEB19025_tsv.txt)<br>
+Metadata in file: [Metadata](https://github.com/HeidiOttesen/GenomeAnalysis/blob/b57f824e2be54d682f32d9a684108f95f5e8b7d6/git_general/Metadata_PRJEB19025_tsv.txt)<br>
 Link to original files on [ENA (ebi)](https://www.ebi.ac.uk/ena/browser/view/PRJEB19025)<br>
 An ampicillin- and vancomycin-resistant clinical isolate - clade A-1 strain (concluded from assembly and phylogeny)
 isolated from a rectal swab of a patient (nephrology ward, Netherlands, 2000). Comparing growth of bacteria between human serum and a mediu, BHI - brain heart infusion broth at 37°C. <br>
-Organization and raw read file sizes: see [folders_structure.txt](https://github.com/HeidiOttesen/GenomeAnalysis/blob/cd993159322a81a3d033fca96c49c435c3caa71f/folders_structure.txt) file <br>
+Organization and raw read file sizes: see [folders_structure.txt](https://github.com/HeidiOttesen/GenomeAnalysis/blob/b57f824e2be54d682f32d9a684108f95f5e8b7d6/git_general/folders_structure.txt) file <br>
