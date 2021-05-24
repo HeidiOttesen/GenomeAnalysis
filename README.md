@@ -1,5 +1,11 @@
 # Genome Analysis
 
+### Sample: E. faecium strain E745
+Metadata in file: [Metadata](https://github.com/HeidiOttesen/GenomeAnalysis/blob/b57f824e2be54d682f32d9a684108f95f5e8b7d6/git_general/Metadata_PRJEB19025_tsv.txt)<br>
+Link to original files on [ENA (ebi)](https://www.ebi.ac.uk/ena/browser/view/PRJEB19025)<br>
+An ampicillin- and vancomycin-resistant clinical isolate - clade A-1 strain (concluded from assembly and phylogeny)
+isolated from a rectal swab of a patient (nephrology ward, Netherlands, 2000). Comparing growth of bacteria between human serum and a mediu, BHI - brain heart infusion broth at 37°C. <br>
+Organization and raw read file sizes: see [folders_structure.txt](https://github.com/HeidiOttesen/GenomeAnalysis/blob/b57f824e2be54d682f32d9a684108f95f5e8b7d6/git_general/folders_structure.txt) file <br>
 
 ### ARTICLE I 
 (TA Linnéa Smeds)
@@ -18,7 +24,7 @@ Title:
 The aim of this project is to assemble the genome of Enterococcus faecium based on three different types of raw reads (Nanopore, PacBio, illumina). And then we want to compare expression levels of the bacteria grown in rich medium vs in human serum to identify genes that are essential for survival in humans. These could be potential targets for developing new drugs. 
 
 
-### Methods and pipeline used in article:
+#### Methods and pipeline used in article:
 
 > -	Genome:<br>
 > -	Assembly<br>
@@ -35,11 +41,11 @@ The aim of this project is to assemble the genome of Enterococcus faecium based 
 >	-	Phylogenetic tree based on Maximum likelihood<br>
 >		-	visualized by MEGA<br>
 >	-	ResFinder - to find genes involved in drug resistance<br>
->	-	RNA-seq:<br>
->		-	ScriptSeq - library prep -> cDNA (rRNA removed before) -> PCR -><br>
->			-	Illumina HiSeq 2500 100bp paired end read<br>
->		-	Rockhopper<br>
->		-	Mapping of expression reads on genome?<br>
+>-	RNA-seq:<br>
+>	-	ScriptSeq - library prep -> cDNA (rRNA removed before) -> PCR -><br>
+>		-	Illumina HiSeq 2500 100bp paired end read<br>
+>	-	Rockhopper<br>
+>	-	Mapping of expression reads on genome?<br>
 >	-	qPCR to confirm a few genes expression levels between serum and medium - highly concordant<br>
 >	-	Tn-seq - transposon insertion sequencing <br>
 >		-	monitoring the fitness of transposon insertion mutant libraries - <br>
@@ -76,10 +82,3 @@ The aim of this project is to assemble the genome of Enterococcus faecium based 
 ### Timeline
 ![Preliminary timeline:](git_general/Gantt_Timeline.jpg "Gantt Timeline")
 
-
-### Sample: E. faecium strain E745
-Metadata in file: [Metadata](https://github.com/HeidiOttesen/GenomeAnalysis/blob/b57f824e2be54d682f32d9a684108f95f5e8b7d6/git_general/Metadata_PRJEB19025_tsv.txt)<br>
-Link to original files on [ENA (ebi)](https://www.ebi.ac.uk/ena/browser/view/PRJEB19025)<br>
-An ampicillin- and vancomycin-resistant clinical isolate - clade A-1 strain (concluded from assembly and phylogeny)
-isolated from a rectal swab of a patient (nephrology ward, Netherlands, 2000). Comparing growth of bacteria between human serum and a mediu, BHI - brain heart infusion broth at 37°C. <br>
-Organization and raw read file sizes: see [folders_structure.txt](https://github.com/HeidiOttesen/GenomeAnalysis/blob/b57f824e2be54d682f32d9a684108f95f5e8b7d6/git_general/folders_structure.txt) file <br>
