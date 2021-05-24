@@ -1,5 +1,5 @@
 
-Genome analysis:
+/domus/h1/heidio/GenomeAnalysis/
 	01_RawData
 		GenomicsData
 			Illumina
