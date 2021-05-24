@@ -26,10 +26,10 @@ The aim of this project is to assemble the genome of Enterococcus faecium based 
 
 #### Methods and pipeline used in article:
 
-> -	Genome:<br>
-> -	Assembly<br>
->		-	PacBio - Celera - assembly<br>
->		-	Illumina - BWA vs - mapped (for correction)<br>
+> *	Genome:<br>
+> *	Assembly<br>
+>	*	PacBio - Celera - assembly<br>
+>	*	Illumina - BWA vs - mapped (for correction)<br>
 >			-	--> 15 contigs (1 contig=2.77Mbp chromosome)<br>
 >			-	confirmed with gap-spanning PCRs + sequencing<br>
 >		-	illumina + MinION 2D -> Spades assembler to fill final gap in one plasmid --> complete assembly<br>
