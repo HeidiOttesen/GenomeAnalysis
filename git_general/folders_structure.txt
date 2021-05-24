@@ -68,3 +68,6 @@ Genome analysis:
 	git_general
 	Scripts
 		(.sh files)
+
+Extra storage for .bam and .sam files:
+/proj/g2021012/nobackup/work/
