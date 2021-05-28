@@ -72,8 +72,8 @@ resLFC <- lfcShrink(dds, coef="condition_untreated_vs_treated", type="apeglm")
 resLFC
 
 
-plotMA(res, ylim=c(-2,2))
-plotMA(resLFC, ylim=c(-2,2))
+plotMA(res, ylim=c(-10,10))
+plotMA(resLFC, ylim=c(-10,10))
 
 summary(res)
 
@@ -85,12 +85,13 @@ summary(res)
 #low counts [2]     : 0, 0%
 #(mean count < 0)
 
-
+library("DESeq2")
+library("dplyr")
 # Remove false discovery, Keep only truly significant
 res1 = as.data.frame(res)
 res1 = mutate(res1, sig=ifelse(res1$padj<0.1, "FDR<0.1","not sig")) 
 
-res1[which(abs(res1$log2FoldChange)<1.0),"sig"] = "not sign"
+res1[which(abs(res1$log2FoldChange)<1.0),"sig"] = "not sig"
 
 library(ggplot2)
 ggplot(res1, aes(log2FoldChange, -log(padj))) + geom_point(aes(col=sig)) + scale_color_manual(values=c("red", "black"))
