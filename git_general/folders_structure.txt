@@ -66,6 +66,7 @@
 		1_BWA
 		2_HTSeq
 	git_general
+	Report
 	Scripts
 		(.sh files)
 
